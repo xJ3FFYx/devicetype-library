@@ -1,0 +1,45 @@
+---
+manufacturer: CyberPower
+model: ST425
+slug: cyberpower-st425
+part_number: ST425
+u_height: 0
+is_full_depth: false
+weight: 1.72
+weight_unit: kg
+comments: |
+  CyberPower Standby UPS 425VA / 260W, 120V (Simulated Sine Wave)
+  - 4x NEMA 5-15R (Battery Backup + Surge Protection)
+  - 4x NEMA 5-15R (Surge Protection Only)
+  - Surge Suppression: 890 Joules
+  - Internal Battery: 12V / 2.9Ah Sealed Lead-Acid (non-user-replaceable)
+power-ports:
+  - name: Input
+    type: nema-5-15p
+    maximum_draw: 840
+    allocated_draw: 260
+power-outlets:
+  - name: Battery Backup 1
+    type: nema-5-15r
+    power_port: Input
+  - name: Battery Backup 2
+    type: nema-5-15r
+    power_port: Input
+  - name: Battery Backup 3
+    type: nema-5-15r
+    power_port: Input
+  - name: Battery Backup 4
+    type: nema-5-15r
+    power_port: Input
+  - name: Surge Only 1
+    type: nema-5-15r
+    power_port: Input
+  - name: Surge Only 2
+    type: nema-5-15r
+    power_port: Input
+  - name: Surge Only 3
+    type: nema-5-15r
+    power_port: Input
+  - name: Surge Only 4
+    type: nema-5-15r
+    power_port: Input
