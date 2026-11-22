@@ -1,0 +1,20 @@
+---
+manufacturer: Technicolor
+model: E31T2V1
+slug: technicolor-e31t2v1
+part_number: E31T2V1
+u_height: 0
+is_full_depth: false
+comments: Spectrum-issued DOCSIS 3.1 eMTA. Broadcom BCM3390. D3.1 (2x2 OFDM/A) + 32x8 D3.0. 1 Gbps Ethernet, 2x RJ-11 voice.
+interfaces:
+  - name: Coax
+    type: docsis
+  - name: LAN 1
+    type: 1000base-t
+  - name: Phone 1
+    type: other
+  - name: Phone 2
+    type: other
+power-ports:
+  - name: DC In
+    type: dc-terminal

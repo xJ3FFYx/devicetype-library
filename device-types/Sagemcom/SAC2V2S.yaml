@@ -1,0 +1,24 @@
+---
+manufacturer: Sagemcom
+model: SAC2V2S
+slug: sagemcom-sac2v2s
+part_number: SAC2V2S
+u_height: 0
+is_full_depth: false
+comments: Spectrum-issued router. Wi-Fi 5 Wave 2. Managed via My Spectrum app, single SSID.
+interfaces:
+  - name: WAN
+    type: 1000base-t
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: 2.4 GHz
+    type: ieee802.11ac
+  - name: 5 GHz
+    type: ieee802.11ac
+power-ports:
+  - name: DC In
+    type: dc-terminal

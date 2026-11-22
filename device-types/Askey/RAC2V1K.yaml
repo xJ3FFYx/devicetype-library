@@ -1,0 +1,26 @@
+---
+manufacturer: Askey
+model: RAC2V1K
+slug: askey-rac2v1k
+part_number: RAC2V1K
+u_height: 0
+is_full_depth: false
+comments: Spectrum-issued router. Wi-Fi 5 Wave 2. Local web UI (192.168.1.1), separate 2.4/5 GHz SSIDs.
+interfaces:
+  - name: WAN
+    type: 1000base-t
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: LAN 4
+    type: 1000base-t
+  - name: 2.4 GHz
+    type: ieee802.11ac
+  - name: 5 GHz
+    type: ieee802.11ac
+power-ports:
+  - name: DC In
+    type: dc-terminal

@@ -1,0 +1,57 @@
+---
+manufacturer: Hikvision
+model: DS-7208HUHI-F2/N
+slug: hikvision-ds-7208huhi-f2-n
+part_number: DS-7208HUHI-F2/N
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+front_image: true
+rear_image: true
+
+comments: >-
+  8-channel TurboHD 3.0 hybrid DVR (analog/HD-TVI/AHD + up to 2 IP channels at
+  up to 4 MP). Records up to 5 MP @ 12 fps, 3 MP @ 15 fps, or 1080p @ 30 fps;
+  H.264+/H.264. Outputs: HDMI (up to 4K), VGA (up to 1080p), CVBS. 2x SATA bays
+  (up to 6 TB each, 12 TB total). 4-ch RCA audio in, 1-ch RCA audio out,
+  8 alarm in / 4 alarm out, RS-485 for PTZ. 1x USB 2.0 (front), 1x USB 3.0
+  (rear). 12 VDC, <= 20 W without HDD. 380 x 320 x 48 mm.
+
+interfaces:
+  - name: LAN
+    type: 1000base-t
+    mgmt_only: false
+
+power-ports:
+  - name: 12VDC
+    type: dc-terminal
+    maximum_draw: 20
+
+rear-ports:
+  - name: Video In 1
+    type: bnc
+    positions: 1
+  - name: Video In 2
+    type: bnc
+    positions: 1
+  - name: Video In 3
+    type: bnc
+    positions: 1
+  - name: Video In 4
+    type: bnc
+    positions: 1
+  - name: Video In 5
+    type: bnc
+    positions: 1
+  - name: Video In 6
+    type: bnc
+    positions: 1
+  - name: Video In 7
+    type: bnc
+    positions: 1
+  - name: Video In 8
+    type: bnc
+    positions: 1
+  - name: CVBS Out
+    type: bnc
+    positions: 1

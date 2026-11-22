@@ -1,0 +1,26 @@
+---
+manufacturer: Askey
+model: MAX2V1K
+slug: askey-max2v1k
+part_number: MAX2V1K
+u_height: 0
+is_full_depth: false
+comments: Spectrum-issued router. Wi-Fi 6E, MDU wall-mount. Managed via My Spectrum app, single SSID (Adaptive Steering).
+interfaces:
+  - name: WAN
+    type: 2.5gbase-t
+  - name: LAN 1
+    type: 1000base-t
+  - name: LAN 2
+    type: 1000base-t
+  - name: LAN 3
+    type: 1000base-t
+  - name: 2.4 GHz
+    type: ieee802.11ax
+  - name: 5 GHz
+    type: ieee802.11ax
+  - name: 6 GHz
+    type: ieee802.11ax
+power-ports:
+  - name: DC In
+    type: dc-terminal
